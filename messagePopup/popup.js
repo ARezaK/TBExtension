@@ -43,7 +43,7 @@ document.getElementById('fetchInfoButton').addEventListener('click', async () =>
             console.error('Error fetching user info:', error);
             document.getElementById("jsonResponse").textContent = 'Failed to fetch user info.' + error;
         });
-}
+})
 
 // Convert a JSON object to an HTML string, making URLs clickable
 function jsonToHtmlWithLinks(jsonObj) {
@@ -65,6 +65,4 @@ function jsonToHtmlWithLinks(jsonObj) {
     return htmlStr;
 }
 
-// Execute the function when the script loads
-fetchAndDisplayUserInfo();
 
