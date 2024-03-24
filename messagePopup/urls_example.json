@@ -1,10 +1,3 @@
-# TBExtension
-Fetch User Information CRM
-
-MessagePopup is the only thing in use currently
-
-put info in urls.json
-
 [
     {
         "Name": "Service A",
@@ -14,6 +7,5 @@ put info in urls.json
         "Name": "Service B",
         "Url": "https://serviceb.example.com/fetchuserinfo?email="
     }
-    // Add more services as needed
 ]
 
