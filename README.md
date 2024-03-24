@@ -17,3 +17,4 @@ put info in urls.json
     // Add more services as needed
 ]
 
+To make into extension take everything in the folder -> compress -> rename extension to .xpi
